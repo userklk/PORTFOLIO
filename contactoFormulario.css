@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-background: #22181C;
+    --azul-claro: #f9f3f4;
+    --azul-oscuro: #F45B69;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+    color: var(--color-background);
+    font-family: "Inconsolata", monospace;
+
+}
+
+.titulo-contacto {
+    background-color: var(--azul-oscuro);
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    color: var(--azul-claro);
+    padding: 1rem 5.5rem;
+    border-radius: 15px;
+    font-family: "Inconsolata", monospace;
+}
+
+.logos-contacto {
+    width: 3rem;
+}
+
+.contenedor-principal-contacto {
+    background-color: var(--azul-claro);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 12rem 1rem 12rem;
+    padding: 4rem;
+    filter: drop-shadow(0px 0px 30px var(--azul-oscuro));
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: initial;
+    backdrop-filter: blur(10px);
+    
+}
+
+.bloque-izquierda-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    width: 50%;
+    font-weight: lighter;
+    border-right: 3px solid var(--azul-oscuro);
+
+
+}
+
+.bloque-derecha-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.form-derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    overflow: initial;
+
+}
+
+.bloque-inputs {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.bloque-texto-nom-email-asunto {
+    padding: 1rem 7rem 1rem 1rem;
+    align-items: left;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+.iconos-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.iconos-contacto img:hover {
+    scale: 1.1;
+    filter: drop-shadow(0px 0px 2px var(--azul-oscuro));
+    transition: 0.3s;
+}
+
+.boton-enviar-contacto {
+    background-color: var(--azul-oscuro);
+    color: var(--azul-claro);
+    border: none;
+    border-radius: 15px;
+    padding: 1.5rem 5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: var(--azul-oscuro) 2px solid;
+    
+}
+
+.boton-enviar-contacto:hover {
+    background-color: var(--azul-claro);
+    color: var(--azul-oscuro);
+    border: var(--azul-oscuro) 2px solid;
+    transition: 0.4s;
+    box-shadow:   0 0 5px var(--azul-oscuro);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 454px) {
+    .body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: var(--color-background);
+        color: var(--color-background);
+        font-family: "Inconsolata", monospace;
+        box-sizing: border-box;
+    }
+
+    .textos-contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+        margin: 0rem;
+        width: 100%;
+        font-size: 0.8rem;
+        box-sizing: border-box;
+    }
+
+    .contenedor-principal-contacto {
+        padding: 0rem;
+        flex-direction: column;
+    }
+
+    .contenedor-principal-contacto {
+        margin: 0rem 0rem;
+        padding: 0rem;
+        flex-direction: column;
+    }
+
+    .bloque-izquierda-contacto,
+    .bloque-derecha-contacto {
+        width: 100%;
+        padding: 2rem 0rem;
+        border-right: none;
+        border-bottom: 3px solid var(--azul-oscuro);
+    }
+
+    .bloque-derecha-contacto {
+        border-bottom: none;
+    }
+
+    .bloque-texto-nom-email-asunto {
+        padding: 1rem;
+    }
+
+    .boton-enviar-contacto {
+        padding: 1rem 3rem;
+        font-size: 1.2rem;
+    }
+
+    .iconos-contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        gap: 1rem;
+    }
+
+    .iconos-contacto img {
+        width: 2rem;
+    }
+
+    .titulo-contacto {
+        background-color: var(--azul-oscuro);
+        -webkit-backdrop-filter: blur(100px);
+        backdrop-filter: blur(100px);
+        color: var(--azul-claro);
+        padding: 1rem 1rem;
+        border-radius: 20px;
+    }
+}

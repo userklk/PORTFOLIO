@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="style.css">
+    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.scss">
+    <link rel="icon" href="21.png" type="image/png">
+</head>
+
+<body>
+
+    <header class="header-stiky ">
+        <div>
+
+            <nav class="navegador-stiky ">
+                <div class="bloque-individual-nav rounded-tl-lg">
+                    <a href="#aboutme" class="estilo-textos-nav " id="boton-nav-aboutme">About me</a>
+                </div>
+                <div class="bloque-individual-nav">
+                    <a href="#seccion-habilidades" class="estilo-textos-nav">Habilidades</a>
+                </div>
+                <div class="bloque-individual-nav">
+                    <a href="#servicios-boton" class="estilo-textos-nav">Servicios</a>
+                </div>
+                <div class="bloque-individual-nav">
+                    <a href="#seccion-proyectos" class="estilo-textos-nav">Proyectos</a>
+                </div>
+                <div class="bloque-individual-nav rounded-br-lg">
+                    <a href="#seccion-contacto" class="estilo-textos-nav ">Contacto</a>
+                </div>
+            </nav>
+            
+            <a href=""><img src="21.png" alt="" class="logoPer-imagen"></a>
+        </div>
+    </header>
+
+    <section class="primer-section">
+        <h1 class="titulo-portfolio">Portfolio</h1>
+        <div class="texto-presentacion-portfolio">
+            <p class="">Conoce mi portfolio de presentación como desarrollador web.</p>
+        </div>
+
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+    </section>
+
+    <!--</div> SECTION SOBRE MI -->
+    <!--  -->
+    <section class="section-about-me" id="aboutme">
+        <h2 class="titulo-principal-secciones text-7xl">About me</h2>
+        <div class="bloque-general-sobremi">
+            <div class="bloque-foto ml-60">
+                <h2 class=" italic pb-1 bg-neutral-800">Hola, soy Javier Carrillo</h2>
+                <div class="imagen-sobremi">
+                    <img src="unnamed.jpg" alt="" class="imagensobre-mi-individual">
+                </div>
+            </div>
+            <div class=" bloque-textos-sobremi ">
+                <h3 class="  text-5xl  responsive-mi-historia">Mi historia, </h3>
+                <p>Mi nombre es Javier Carrillo y soy un programador web
+                    activo desde 2020. Me encanta programar y crear paginas web
+                    atractivas a la vista y funcionales.
+                </p>
+                <p>
+                    Me especializo en el desarrollo de paginas web con HTML, CSS y JavaScript.
+                    Tambien tengo conocimientos en el uso de frameworks como Bootstrap y TailwindCSS.
+                </p>
+                <p>
+                    Actualmente busco incorporarme a un equipo de trabajo para seguir aprendiendo
+                    y creciendo como programador web.
+                    Si buscas un programador web para tu proyecto, no dudes en contactarme.
+                </p>
+                <a href="#seccion-contacto" class="boton-sobremi-contacto">Conoceme</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCTION HABILIDADES -->
+    <!--  -->
+    <section id="seccion-habilidades">
+        <div class="bloque-general-skills">
+            <h2 class="text-7xl titulo-principal-secciones">Habilidades</h2>
+            <p class="texto-descripcion-secciones">
+                Soy un desarrollador web con experiencia en tecnologías de back-end y front-end.
+                Manejo lenguajes como Python, Java, HTML, CSS y JavaScript, y utilizo frameworks
+                como Bootstrap y TailwindCSS para crear aplicaciones web atractivas y funcionales.
+            </p>
+            <div class="contenedor-tres-secciones">
+                <div class="bloque-individual-habilidad ">
+                    <img src="icons8-configuración-de-datos-100.png" alt="" class="logos-habilidades">
+                    <h3 class="border-b-2 border-neutral-800">BACK END</h3>
+                    <div>
+                        <p class="responsive-textos-habilidades">
+                            Python | Java | MySQL | JSON | Oracle SQL |PHP | Node.js | XML | CURL | Apache2
+                        </p>
+                    </div>
+                </div>
+                <div class="bloque-individual-habilidad">
+                    <img src="icons8-html5-100.png" alt="" class="logos-habilidades">
+                    <h3 class="border-b-2 border-neutral-800">FRONT END</h3>
+                    <div>
+                        <p class="responsive-textos-habilidades">
+                            HTML | CSS | JavaScript | Bootstrap | TailwindCSS | Basic SEO | Responsive Design
+                        </p>
+                    </div>
+                </div>
+                <div class="bloque-individual-habilidad">
+                    <img src="taiwld-loog.png" alt="" class="logos-habilidades">
+                    <h3 class="border-b-2 border-neutral-800">FRAMEWORKS</h3>
+                    <div>
+                        <p class="responsive-textos-habilidades">
+                            Angular | React | Git | Visual Studio Code | Bootstrap | TailwindCSS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin secion habilidades -->
+    <!--  -->
+    <!--  Seccion Servicios-->
+    <section class="secion-servicios" id="servicios-boton">
+        <div class="responsive-servicio-columna">
+            <h2 class="text-7xl  pb-5 titulo-principal-secciones">Servicios</h2>
+            <p class=" pt-4   texto-descripcion-secciones">
+                Ofrezco una variedad de servicios para satisfacer tus necesidades tecnológicas, incluyendo desarrollo
+                web, creación de aplicaciones, optimización SEO y reparación/montaje de equipos informáticos.
+            </p>
+            <div class="bloque-servicios-cuadros">
+                <div class="bloque-servicio-individual rounded-bl-3xl">
+                    <div class="contenedor-imagen-servicio">
+                        <img src="pexels-nemuel-6424590 copy.jpg" alt="" class="imagenes-servicios">
+                    </div>
+
+                    <h3 class="titulos-servicios">Desarrollo web</h3>
+                    <p class="texto-individual-servicios">Creación de paginas web atractivas y funcionales con HTML, CSS
+                        y JavaScript.</p>
+
+                </div>
+                <div class="bloque-servicio-individual  rounded-tr-3xl">
+                    <div class="contenedor-imagen-servicio">
+                        <img src="pexels-negativespace-34600.jpg" alt="" class="imagenes-servicios">
+                    </div>
+                    <h3 class="titulos-servicios">Maquetación web</h3>
+                    <p class="texto-individual-servicios">
+                        Ofrezco servicios de maquetación de páginas web utilizando HTML, CSS y frameworks como Bootstrap
+                        y
+                        TailwindCSS.
+                    </p>
+                </div>
+                <div class="bloque-servicio-individual rounded-tl-3xl">
+                    <div class="contenedor-imagen-servicio">
+                        <img src="pexels-mikael-blomkvist-6476373.jpg" alt="" class="imagenes-servicios">
+                    </div>
+                    <h3 class="titulos-servicios">SEO</h3>
+                    <p class="texto-individual-servicios">Optimización de páginas web para mejorar su visibilidad en
+                        motores de búsqueda.</p>
+                </div>
+                <div class="bloque-servicio-individual  rounded-br-3xl">
+                    <div class="contenedor-imagen-servicio">
+                        <img src="pexels-alexakeiart-6677499.jpg" alt="" class="imagenes-servicios">
+                    </div>
+                    <h3 class="titulos-servicios">Reparación/montaje de equipos.</h3>
+                    <p class="texto-individual-servicios">
+                        Servicio de reparación y montaje de equipos informáticos.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <a href="#seccion-proyectos" class="boton-saber-mas-servicios">Saber más</a>
+            </div>
+        </div>
+    </section>
+    <!--  Fin secion servicios-->
+    <!--  Seccion Proyectos-->
+    <section id="seccion-proyectos">
+        <div class="responsive-proyectos-movil">
+            <h2 class="text-7xl titulo-principal-secciones" title="Redirección a página de contacto">Proyectos</h2>
+            <p class="textos-proyectos texto-descripcion-secciones">
+                Estos son algunos de los proyectos que he realizado a lo largo de mi carrera como desarrollador web.
+                Cada uno de ellos refleja mis habilidades y conocimientos en diferentes tecnologías y frameworks.
+            </p>
+            <div class="contenedor-proyectos-columna">
+                <!-- Proyecto 1 Impar -->
+                <div class=" contenedor-proyectos-individual rounded-bl-3xl rounded-tr-3xl ">
+                    <div class="imagen-responsive">
+                        <img src="descarga.png" alt="" class="imagen-contenedor-proyectos">
+                    </div>
+                    <div class=" w-3/5">
+                        <h3 class="titulos-proyectos-individual">Proyecto BMW con Boostrap. </h3>
+                        <p>Fecha -2024</p>
+                        <p class=" ">Proyectos realizados durante el ciclo de Desarrollo de Aplicaciones Web,
+                            uso de Bootstrap para la imitación de la página de BMW.
+                        </p>
+                    </div>
+                    <a href="https://github.com/userklk/DAW_ImitacionBMW/" target="_blank" class="boton-vermas-proyecto"> <img src="flecha-verMas-portfolio.png" alt=""
+                            class="flecha-vermas-proyecto"></a>
+                </div>
+                <!-- Proyecto 2 Par -->
+                <div class=" contenedor-proyectos-individual rounded-tl-3xl rounded-br-3xl">
+
+                    <a href="https://github.com/userklk/imitacion_Mercedes/" target="_blank" class="boton-vermas-proyecto"> <img src="flecha-verMas-portfolio.png" alt=""
+                            class="flecha-vermas-proyecto"></a>
+
+                    <div class="w-3/5">
+                        <h3 class="titulos-proyectos-individual">Proyecto Mercedes con Tailwind.</h3>
+                        <p>Fecha -2024</p>
+                        <p class="">Proyectos realizados durante el ciclo de Desarrollo de Aplicaciones Web,
+                            uso de TailwindCSS para la imitación de la página de Mercedes.
+                        </p>
+                    </div>
+
+                    <div class="imagen-responsive">
+                        <img src="descarga.png" alt="" class="imagen-contenedor-proyectos">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--  Fin secion proyectos-->
+    <!-- Seccion contacto -->
+    <section id="seccion-contacto" class="seccion-contacto-class">
+        <div class="responsiv-contacto-movil">
+            <p class="texto-contacta-conmigo texto-descripcion-secciones">¿?</p>
+            <div>
+                <a href="./contactoFormulario.html" target="_blank" class="boton-contacta-conmigo">CONTACTA CONMIGO</a>
+            </div>
+
+        </div>
+
+        <div class="miniseccion-logos-contacto ">
+            <div class="bloque-contacto-logos-flex">
+                <img src="gmail-logo.png" alt="" class="logos-contacto">
+                <p class="">javiercontacto71@gmail.com
+                </p>
+            </div>
+            <div class="bloque-contacto-logos-flex">
+                <a href="https://www.linkedin.com/in/deeaken/" target="_blank"> <img src="ig_logo.png" alt=""
+                        class="logos-contacto"></a>
+                <p> | </p>
+                <a href="https://github.com/userklk/" target="_blank"><img src="git-logo.png" alt=""
+                        class="logos-contacto"></a>
+                <p> | </p>
+                <img src="ig2-logo.png" alt="" class="logos-contacto">
+                <p> | </p>
+                <img src="descarga (1).png" alt="" class="logos-contacto">
+                <p> | </p>
+                <img src="disc-logo.png" alt="" class="logos-contacto">
+            </div>
+        </div>
+        <div class="seccion-ubicacion">
+            <img src="icons8-geo-cerca-100.png" alt="" class="logos-contacto ">
+            <p class="">Madrid, España</p>
+        </div>
+
+    </section>
+    <!-- Fin seccion contacto -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <p class="footer-texto">© 2024 Javier Carrillo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Fin footer -->
+    <script src="script.js"></script>
+</body>
+
+</html>
